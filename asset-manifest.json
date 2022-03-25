@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/periods-encryptor/static/css/main.f017d3f6.css",
+    "main.js": "/periods-encryptor/static/js/main.2203b495.js",
+    "static/js/787.62449090.chunk.js": "/periods-encryptor/static/js/787.62449090.chunk.js",
+    "static/media/periods_table.png": "/periods-encryptor/static/media/periods_table.27b3b359c490085cd8ba.png",
+    "index.html": "/periods-encryptor/index.html",
+    "main.f017d3f6.css.map": "/periods-encryptor/static/css/main.f017d3f6.css.map",
+    "main.2203b495.js.map": "/periods-encryptor/static/js/main.2203b495.js.map",
+    "787.62449090.chunk.js.map": "/periods-encryptor/static/js/787.62449090.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f017d3f6.css",
+    "static/js/main.2203b495.js"
+  ]
+}
