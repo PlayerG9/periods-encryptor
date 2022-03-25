@@ -2,7 +2,8 @@ import './App.css'
 import {
     BrowserRouter,
     Routes,
-    Route
+    Route,
+    Navigate
 } from 'react-router-dom'
 
 import HomePage from './routes/home'
@@ -16,7 +17,9 @@ export default function App() {
         <Routes>
             <Route path="/">
                 <Route index element={<HomePage/>}/>
+                <Route path="p2n" element={<Navigate to="/periods2number"/>}/>
                 <Route path="periods2number" element={<Periods2Number/>}/>
+                <Route path="n2p" element={<Navigate to="/number2periods"/>}/>
                 <Route path="number2periods" element={<Number2Periods/>}/>
                 <Route path="*" element={<Page404NotFound/>}/>
             </Route>
