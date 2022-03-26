@@ -1,0 +1,45 @@
+.element {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.element > div {
+    border-radius: 5px;
+}
+.element > .border {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+
+    background-color: rgb(255,215,0);
+    background: radial-gradient(circle, rgba(255,215,0,1) 0%, rgba(255,180,0,1) 50%, rgba(255,250,0,1) 100%);
+}
+.element > .background {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 42px;
+    height: 42px;
+
+    background-color: black;
+}
+.element > .number {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: x-small;
+
+    color: gold;
+}
+.element > .symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: gold;
+    font-weight: bold;
+}
