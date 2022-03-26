@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './index.css'
-import PeriodsTable from './periods_table.png'
+import PeriodsTable from '../periods_table.png'
 
 
 export default function HomePage(){
@@ -8,6 +8,6 @@ export default function HomePage(){
         <h1 className='link-encrypt'>
             <Link to="encryptor">Encrypt</Link>
         </h1>
-        <img className='periods-table' src={PeriodsTable} alt=""/>
+        <img className='periods-table-image' src={PeriodsTable} alt=""/>
     </div>
 }

@@ -22,9 +22,9 @@ export default function App() {
         <Routes>
             <Route path="/">
                 <Route index element={<HomePage/>}/>
-                <Route path="p2n" element={<Navigate to="period2number"/>}/>
+                <Route path="p2n" element={<Navigate to="/period2number"/>}/>
                 <Route path="period2number" element={<Period2Number/>}/>
-                <Route path="n2p" element={<Navigate to="number2period"/>}/>
+                <Route path="n2p" element={<Navigate to="/number2period"/>}/>
                 <Route path="number2period" element={<Number2Period/>}/>
                 {testPageEnabled &&
                     <Route path="tests" element={<TestPage/>}/>
