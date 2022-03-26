@@ -1,9 +1,17 @@
 /* .homepage {
 
 } */
-.homepage > h1 {
+.homepage > .link-encrypt {
     text-align: center;
-    font-size: 2em;
+}
+.homepage > .link-encrypt > a {
+    text-decoration: none;
+}
+.homepage > .link-encrypt > a:hover {
+    text-decoration: underline;
+}
+.homepage > .link-encrypt > a:visited {
+    color: #0066CC;
 }
 .homepage > .periods-table {
     display: block;
