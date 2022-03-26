@@ -13,7 +13,7 @@ for(let element of periodic_elements){
 }
 
 
-export default class Period2Number extends React.Component {
+export default class Encryptor extends React.Component {
     constructor(props){
         super(props)
         this.state = {
