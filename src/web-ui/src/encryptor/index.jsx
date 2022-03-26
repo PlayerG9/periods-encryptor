@@ -1,8 +1,7 @@
 import './index.css'
 import React from 'react'
-import PeriodsTable from '../periods_table.png'
 import periodic_elements from '../periodic-table.json'
-import Element from '../../components/element'
+import Element from '../components/element'
 
 
 const elementIndex = {}
@@ -27,7 +26,6 @@ export default class Encryptor extends React.Component {
     render(){
         // console.log(this.state)
         return <div className='period2number'>
-            <img className='periods-table-image' src={PeriodsTable} alt=""/>
             <div className='input-field'>
                 <input type="text" value={this.state.text} onChange={this.onChange} autoFocus/>
                 <p>{this.state.results.length || "No"} Result{this.state.results.length !== 1 ? "s" : ""}</p>
