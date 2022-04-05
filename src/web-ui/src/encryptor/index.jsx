@@ -72,9 +72,9 @@ export default class Encryptor extends React.Component {
     }
 
     findMatchesRecursion(text, list, current){
-        // end of text reached? then add
-        if(!text && current.length){
-            list.push(current)
+        if(!text){
+            if(current.length)
+                list.push(current)
             return
         }
 
