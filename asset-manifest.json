@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/periods-encryptor/static/css/main.71dd3fd0.css",
-    "main.js": "/periods-encryptor/static/js/main.15286417.js",
+    "main.css": "/periods-encryptor/static/css/main.37bbd77b.css",
+    "main.js": "/periods-encryptor/static/js/main.d3ad0ac6.js",
     "static/js/787.62449090.chunk.js": "/periods-encryptor/static/js/787.62449090.chunk.js",
     "static/media/periods_table.png": "/periods-encryptor/static/media/periods_table.1380492edea5eefd93b6.png",
     "static/media/icon.png": "/periods-encryptor/static/media/icon.349315f466a64ef0f690.png",
     "index.html": "/periods-encryptor/index.html",
-    "main.71dd3fd0.css.map": "/periods-encryptor/static/css/main.71dd3fd0.css.map",
-    "main.15286417.js.map": "/periods-encryptor/static/js/main.15286417.js.map",
+    "main.37bbd77b.css.map": "/periods-encryptor/static/css/main.37bbd77b.css.map",
+    "main.d3ad0ac6.js.map": "/periods-encryptor/static/js/main.d3ad0ac6.js.map",
     "787.62449090.chunk.js.map": "/periods-encryptor/static/js/787.62449090.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71dd3fd0.css",
-    "static/js/main.15286417.js"
+    "static/css/main.37bbd77b.css",
+    "static/js/main.d3ad0ac6.js"
   ]
 }
