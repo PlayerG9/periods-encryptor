@@ -1,7 +1,13 @@
 import './index.css'
 
 
-export default function Element(props){
+interface ElementProps {
+    number: Number,
+    symbol: String
+}
+
+
+export default function Element(props: ElementProps){
     return <div className='element'>
         <div className='border'/>
         <div className='background'/>

@@ -1,5 +1,5 @@
 import './index.css'
-import PeriodsTable from '../periods_table.png'
+import PeriodsTableImage from './periods_table.png'
 import Element from '../components/element'
 
 
@@ -18,7 +18,7 @@ export default function HomePage(){
                 </div>
                 with the corrosponding number 277353
             </p>
-            <img className='periods-table-image' src={PeriodsTable} alt=""/>
+            <img className='periods-table-image' src={PeriodsTableImage} alt=""/>
         </div>
     </div>
 }
